@@ -26,4 +26,4 @@ make run
 ```
 
 ### Get (and redirects) a longer URL:
- * DELETE request to `localhost:8080/short-url/:shortURL`
+ * GET request to `localhost:8080/short-url/:shortURL`
