@@ -1,0 +1,17 @@
+meta {
+  name: Create Short URL
+  type: http
+  seq: 2
+}
+
+post {
+  url: localhost:8080/short-url
+  body: text
+  auth: none
+}
+
+body:text {
+  {
+      "longUrl": "https://github.com/renatompf"
+  }
+}
